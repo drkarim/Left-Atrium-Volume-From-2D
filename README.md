@@ -84,6 +84,10 @@ This project investigates how well a 2D-based estimation method approximates the
 
 The project uses images and data from the [open-source dataset LASC benchmark, Xiong et al.](https://www.cardiacatlas.org/atriaseg2018-challenge/atria-seg-data/) and the [paper reference is here](https://www.sciencedirect.com/science/article/abs/pii/S1361841520301961)
 
+Here is an infographic that describes the project:
+
+![Project infographic](images/infographic_1.png)
+
 ---
 
 ### 2. Methods Overview
