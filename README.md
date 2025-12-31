@@ -125,17 +125,13 @@ In addition to the standard geometric area–length formula, two regression-base
 
 **Regression Model 1: Calibrated Area–Length Model**
 
-\[
-V = \alpha \cdot \left(\frac{A_1 \cdot A_2}{L}\right) + \beta
-\]
+![Calibrated area-length model equation1](images/regression_1.svg)
 
 This model retains the structure of the area–length method but allows the scaling (\(\alpha\)) and offset (\(\beta\)) to be learned directly from the data using linear regression.
 
 **Regression Model 2: Multivariate Linear Model**
 
-\[
-V = aA_1 + bA_2 + cL + d
-\]
+![Calibrated area-length model equation2](images/regression_2.svg)
 
 This model treats the two atrial areas and the atrial length as independent predictors of volume and learns their relative contributions using multiple linear regression.
 
