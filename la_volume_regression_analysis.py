@@ -12,7 +12,7 @@ Model 2 (Multiple linear regression):
     V = a*A1 + b*A2 + c*L + d
 
 Input:
-    data.csv in the repo root folder.
+    data.csv in the data folder.
 
 Required columns in data.csv:
     - LA-A1
