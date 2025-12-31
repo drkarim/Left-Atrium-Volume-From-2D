@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 # -------------------------
 # File and column settings
 # -------------------------
-DATA_PATH = Path("data.csv")
+DATA_PATH = Path("./data/data.csv")
 
 A1_COL = "LA-A1"
 A2_COL = "LA-A2"
@@ -111,7 +111,7 @@ def main():
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("model1_area_length_regression.png", dpi=300)
+    plt.savefig("./plots/model1_area_length_regression.png", dpi=300)
     plt.close()
 
     # ==========================================================
@@ -151,7 +151,7 @@ def main():
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("model2_multivariate_regression.png", dpi=300)
+    plt.savefig("./plots/model2_multivariate_regression.png", dpi=300)
     plt.close()
 
     # ==========================================================
